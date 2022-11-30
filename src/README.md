@@ -11,7 +11,7 @@ The warehouse view is a little similar to the products view, the only significan
 
 ##### SQL:
 The stock status is updated by triggers on insert and update for the warehouse_plant_product table, and for update in the table product. Is updated by cascade on delete for product and warehouse_plant.
-
+You can modify the MySQL credentials in the file DBConnection, by default is localhost with the default user and password
 ## Not covered cases:
 -	No input validation in Text Fields
 -	No disable update and delete button when no item is selected
